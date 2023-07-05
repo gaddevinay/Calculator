@@ -1,0 +1,161 @@
+body{
+    margin: 5% ;
+    background: linear-gradient(221deg, rgb(107, 103, 103),#202020, #0000006b,#121212,#888686);
+    background-repeat: no-repeat;
+}
+#border {
+    border: 6px solid rgb(102, 61, 61);
+    width: min-content;
+    height: min-content;
+    padding-left: 20px;
+    padding-right: 19px;
+    padding-top: 87px;
+    padding-bottom: 83px;
+    border-style: hidden;
+    background-repeat: no-repeat;
+    background: url(bg.jpg);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    min-width: fit-content;
+    filter: drop-shadow(22px 20px 9px black);
+
+}
+
+#border2 {
+    border: 6px solid black;
+    width: fit-content;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(32, 29, 34);
+    border-radius: 10px;
+}
+
+#view {
+    background-color: rgb(163, 160, 160);
+    border: none;
+    color: white;
+    width: 275px;
+    font-size: 50px;
+    margin: auto;
+    height: 150px;
+    border-radius: 15px;
+    text-align: right;
+    
+}
+
+#buttons {
+    display: grid;
+    grid-row-gap: 9px;
+    grid-template-columns: repeat(4, auto);
+    align-content: space-evenly;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: rgb(32, 29, 34);
+}
+
+.button {
+    width: 65px;
+    height: 65px;
+    border: none;
+    align-items: center;
+    border-radius: 100%;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(17, 16, 16);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttons .special {
+    background-color: rgb(150, 219, 252);
+}
+
+.clear {
+    background-color: rgb(199, 154, 241);
+}
+
+.answer {
+    background-color: rgb(152, 152, 238);
+}
+
+/*HOVER*/
+.button:hover {
+    background-color: rgb(197, 204, 196);
+    font-size: 25px;
+    transition-property: background-color, font-size;
+    transition-duration: 0.1s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+
+}
+
+#buttons .special:hover {
+    background-color: rgb(112, 169, 196);
+}
+
+.clear:hover {
+    background-color: rgb(164, 130, 196);
+}
+
+.answer:hover {
+    background-color: rgb(118, 118, 196);
+}
+
+input:hover {
+    border: none;
+    border-style: none;
+}
+
+
+#back {
+    display: inline-block;
+
+    width: 10px;
+    height: 20px;
+
+    background-color: #333;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+
+    border-left: 1px solid #333;
+
+    /* This makes room for the triangle */
+    margin-left: 5px;
+
+    position: relative;
+
+    color: white;
+    line-height: 20px;
+
+    padding: 0 10px 0 5px;
+}
+
+/* Makes the triangle */
+#back:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #333;
+}
+
+/* Makes the circle */
+#back:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    left: -9px;
+    top: 17px;
+}
