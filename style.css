@@ -20,6 +20,7 @@ body{
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     min-width: fit-content;
+    margin:auto;
     filter: drop-shadow(22px 20px 9px black);
 
 }
