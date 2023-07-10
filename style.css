@@ -9,8 +9,8 @@ body{
     z-index: 200;
     background-color: white;
     filter: invert();
-    top: 40px;
-    left: 40px;
+    top: 0px;
+    left: 0px;
 }
 #border {
     border: 6px solid rgb(102, 61, 61);
