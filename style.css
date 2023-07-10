@@ -7,8 +7,6 @@ body{
     position: fixed;
     height: 50px;
     z-index: 200;
-    background-color: white;
-    filter: invert();
     top: 0px;
     left: 0px;
 }
