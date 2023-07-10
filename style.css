@@ -3,6 +3,15 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+#image {
+    position: fixed;
+    height: 50px;
+    z-index: 200;
+    background-color: white;
+    filter: invert();
+    top: 40px;
+    left: 40px;
+}
 #border {
     border: 6px solid rgb(102, 61, 61);
     width: min-content;
