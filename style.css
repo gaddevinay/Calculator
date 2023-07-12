@@ -11,6 +11,7 @@ body{
     top: 0px;
     left: 0px;
 }
+
 #border {
     border: 6px solid rgb(102, 61, 61);
     width: min-content;
