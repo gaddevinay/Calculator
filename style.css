@@ -45,6 +45,7 @@ body{
 #view {
     background-color: rgb(163, 160, 160);
     border: none;
+    outline:none;
     color: white;
     width: 275px;
     font-size: 50px;
